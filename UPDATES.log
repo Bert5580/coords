@@ -1,0 +1,11 @@
+coords v2.0.0 — 2025-10-16 22:38:57
+----------------------------------------
+* Rebuilt as clean FX-standalone resource
+* Removed auto-open on start; UI opens only on /coords
+* Added proper NUI focus and ESC handling
+* Added Copy & Refresh (re-capture) buttons
+* Prints coords to console; optional chat message on copy
+* Added key mapping command 'coordstoggle' (unbind by default)
+* Defensive nil checks and safe rounding/formatting
+* No busy loops; UI-only when shown
+* Graceful cleanup on resource stop
