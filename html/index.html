@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coords</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app" class="hidden">
+    <div class="card">
+      <h1>/coords</h1>
+      <p id="version"></p>
+      <div id="coordBox" class="coord-box">vector4(0.000, 0.000, 0.000, 0.00)</div>
+      <div id="status" class="status"></div>
+      <div class="row">
+        <button id="btnCopy" type="button">Copy</button>
+        <button id="btnRefresh" type="button">Refresh</button>
+        <button id="btnClose" type="button">Cancel (ESC)</button>
+      </div>
+      <p class="hint">Tip: bind a key with <code>/bind keyboard F10 coordstoggle</code></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
